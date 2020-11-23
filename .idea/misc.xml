@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+<<<<<<< Updated upstream
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/API/pom.xml" />
@@ -19,4 +20,8 @@
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_10" default="false" project-jdk-name="10" project-jdk-type="JavaSDK" />
+=======
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+>>>>>>> Stashed changes
 </project>

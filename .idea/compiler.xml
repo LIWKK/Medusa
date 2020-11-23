@@ -2,16 +2,29 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+<<<<<<< Updated upstream
       <profile default="true" name="Default" enabled="true" />
+=======
+>>>>>>> Stashed changes
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+<<<<<<< Updated upstream
         <module name="Impl" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="API" target="1.5" />
+=======
+        <module name="ExampleAPI" />
+        <module name="Impl" />
+        <module name="API" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API" target="8" />
+>>>>>>> Stashed changes
       <module name="ExampleAPI" target="8" />
       <module name="Impl" target="8" />
       <module name="Medusa" target="1.5" />
@@ -19,6 +32,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+<<<<<<< Updated upstream
+=======
+      <module name="API" options="-XDignore.symbol.file" />
+>>>>>>> Stashed changes
       <module name="ExampleAPI" options="-XDignore.symbol.file" />
       <module name="Impl" options="-XDignore.symbol.file" />
     </option>
